@@ -1,0 +1,24 @@
+Samples: 28K of event 'cycles', Event count (approx.): 23702987180
+Overhead  Command  Shared Object         Symbol
+  99,20%  nbody3D  nbody3D               [.] move_particles                                                  ◆
+   0,30%  nbody3D  [unknown]             [k] 0xffffffff98ab479f                                              ▒
+   0,10%  nbody3D  libc.so.6             [.] __GI___printf_fp_l                                              ▒
+   0,04%  nbody3D  [unknown]             [k] 0xffffffff98ab4807                                              ▒
+   0,02%  nbody3D  [unknown]             [k] 0xffffffff98ab84f6                                              ▒
+   0,02%  nbody3D  [unknown]             [k] 0xffffffff99c00ef0                                              ▒
+   0,02%  nbody3D  libc.so.6             [.] __vfprintf_internal                                             ▒
+   0,02%  nbody3D  [unknown]             [k] 0xffffffff98ab4800                                              ▒
+   0,02%  nbody3D  libc.so.6             [.] __random                                                        ▒
+   0,01%  nbody3D  libc.so.6             [.] hack_digit                                                      ▒
+   0,01%  nbody3D  libc.so.6             [.] __memmove_avx_unaligned_erms                                    ▒
+   0,01%  nbody3D  libc.so.6             [.] __random_r                                                      ▒
+   0,01%  nbody3D  libc.so.6             [.] __mpn_mul_1                                                     ▒
+   0,01%  nbody3D  libc.so.6             [.] __mempcpy_avx_unaligned                                         ▒
+   0,01%  nbody3D  libc.so.6             [.] __mpn_divrem                                                    ▒
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff99aaec40                                              ▒
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98c1073d                                              ▒
+   0,01%  taskset  [unknown]             [k] 0xffffffff98dbcb18                                              ▒
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98db14b6                                              ▒
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98d73500                                              ▒
+   0,01%  taskset  ld-linux-x86-64.so.2  [.] _dl_relocate_object                                             ▒
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff98df0bc2 

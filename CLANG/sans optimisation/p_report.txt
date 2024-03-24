@@ -1,0 +1,20 @@
+Samples: 461K of event 'cycles', Event count (approx.): 389131591104
+Overhead  Command  Shared Object         Symbol
+  62,07%  nbody3D  libm.so.6             [.] __ieee754_pow_fma
+  28,73%  nbody3D  nbody3D               [.] move_particles
+   7,78%  nbody3D  libm.so.6             [.] pow@@GLIBC_2.29
+   0,79%  nbody3D  nbody3D               [.] pow@plt
+   0,36%  nbody3D  [unknown]             [k] 0xffffffff98ab479f
+   0,12%  nbody3D  libm.so.6             [.] 0x000000000000e300
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab4800
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab84f6
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff99c00ef0
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab82aa
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab4807
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab47fa
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff98b7cd2b
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff99aaec40
+   0,00%  nbody3D  libc.so.6             [.] __random
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff99aad3f7
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff98ab477f
+

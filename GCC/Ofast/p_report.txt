@@ -1,0 +1,20 @@
+Samples: 59K of event 'cycles', Event count (approx.): 49992192652
+Overhead  Command  Shared Object         Symbol
+  99,47%  nbody3D  nbody3D               [.] move_particles
+   0,29%  nbody3D  [unknown]             [k] 0xffffffff98ab479f
+   0,05%  nbody3D  libc.so.6             [.] __GI___printf_fp_l
+   0,01%  nbody3D  libc.so.6             [.] __random
+   0,01%  nbody3D  libc.so.6             [.] __vfprintf_internal
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab4807
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab4800
+   0,01%  nbody3D  libc.so.6             [.] hack_digit
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab84f6
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff98ab47fa
+   0,01%  nbody3D  [unknown]             [k] 0xffffffff99c00ef0
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff99aaec40
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff98b5fe42
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff98b4aaaa
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff98bb8b5c
+   0,00%  nbody3D  [unknown]             [k] 0xffffffff98d728bd
+   0,00%  nbody3D  libgomp.so.1.0.0      [.] omp_get_wtime
+

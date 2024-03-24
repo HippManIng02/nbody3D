@@ -1,0 +1,22 @@
+Samples: 206K of event 'cycles', Event count (approx.): 173515344861
+Overhead  Command  Shared Object     Symbol
+  94,34%  nbody3D  nbody3D           [.] move_particles
+   3,25%  nbody3D  libm.so.6         [.] __sqrtf_finite@GLIBC_2.15
+   1,94%  nbody3D  nbody3D           [.] 0x00000000000011f4
+   0,31%  nbody3D  libm.so.6         [.] __sqrtf
+   0,01%  nbody3D  libc.so.6         [.] __GI___printf_fp_l
+   0,01%  nbody3D  [unknown]         [k] 0xffffffffb7400ef0
+   0,01%  nbody3D  [unknown]         [k] 0xffffffffb62b84f6
+   0,01%  nbody3D  [unknown]         [k] 0xffffffffb62b82aa
+   0,01%  nbody3D  libc.so.6         [.] __random
+   0,01%  nbody3D  [unknown]         [k] 0xffffffffb637cd2b
+   0,01%  nbody3D  [unknown]         [k] 0xffffffffb72aec40
+   0,00%  nbody3D  libc.so.6         [.] hack_digit
+   0,00%  nbody3D  libc.so.6         [.] __vfprintf_internal
+   0,00%  nbody3D  [unknown]         [k] 0xffffffffb625b223
+   0,00%  nbody3D  nbody3D           [.] 0x00000000000011f0
+   0,00%  nbody3D  [unknown]         [k] 0xffffffffb7400ef3
+   0,00%  nbody3D  [unknown]         [k] 0xffffffffb63dca28
+   0,00%  nbody3D  [unknown]         [k] 0xffffffffb635ffc5
+   0,00%  nbody3D  [unknown]         [k] 0xffffffffb63dbb28
+

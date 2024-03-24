@@ -1,0 +1,19 @@
+ Performance counter stats for 'taskset -c 2 ./nbody3D':
+
+         51 262,87 msec task-clock                       #    1,000 CPUs utilized             
+               515      context-switches                 #   10,046 /sec                      
+                 0      cpu-migrations                   #    0,000 /sec                      
+               243      page-faults                      #    4,740 /sec                      
+   172 732 912 699      cycles                           #    3,370 GHz                         (83,33%)
+        57 935 849      stalled-cycles-frontend          #    0,03% frontend cycles idle        (83,34%)
+   127 504 600 397      stalled-cycles-backend           #   73,82% backend cycles idle         (83,32%)
+   387 576 732 379      instructions                     #    2,24  insn per cycle            
+                                                  #    0,33  stalled cycles per insn     (83,33%)
+    20 983 497 556      branches                         #  409,331 M/sec                       (83,34%)
+         3 564 587      branch-misses                    #    0,02% of all branches             (83,34%)
+
+      51,275583023 seconds time elapsed
+
+      51,249612000 seconds user
+       0,012000000 seconds sys
+
